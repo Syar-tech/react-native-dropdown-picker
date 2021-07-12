@@ -17,7 +17,6 @@ import {
     FlatList,
     TextInput,
     Dimensions,
-    ScrollView,
     Modal,
     ActivityIndicator,
     Platform,
@@ -46,6 +45,7 @@ import THEMES from '../themes';
 import RenderBadgeItem from './RenderBadgeItem';
 import RenderListItem from './RenderListItem';
 import ListEmpty from './ListEmpty';
+import {ScrollView} from 'react-native-gesture-handler'
 
 function Picker({
     value = null,
